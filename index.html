@@ -1,0 +1,67 @@
+<!-- 🧩 **Project Steps**
+
+1. Create a header with navigation (Flexbox).
+2. Hero section with your photo & text (positioned overlay).
+3. Projects section (Grid layout with 3-column cards).
+4. Sidebar or contact section using float layout.
+5. Footer centered using Flexbox.
+
+💡 **Tips**
+
+- Keep it consistent with colors & spacing.
+- Focus on layout first, styling later.
+- Validate HTML & CSS when done. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modified Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="container_1">
+        <p>My Portfolio</p>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container_2">
+        <img src="./assets/images/self-removebg-preview.png" alt="animated pic about the admin">
+        <div id="words">
+            <p>Hello, I'm</p>
+            <p class="name">Mo Abdo</p>
+            <p id="description">I'm a web developer 🧑‍💻</p>
+            <button>View my work</button>
+        </div>
+    </div>
+    <div class="container_3">
+        <h2>My Projects</h2>
+        <div class="grid-container">
+            <div class="project">
+                <div class="image one"></div>
+                <h3>Project One <br>(Mondarian paint)</h3>
+                <p>I screamed, I cried, I... 🥲 don't wanna talk about but I finished it nonetheless and here we're 😌</p>
+            </div>
+
+            <div class="project">
+                <div class="image two"></div>
+                <h3>Project Two <br> (Flexbox pricing table)</h3>
+                <p>That one was truly harsh cause combining flexbox and the rest of the features was troublesome but, I felt immaculate after it</p>
+            </div>
+
+            <div class="project">
+                <div class="image three"></div>
+                <h3>Project Three <br> (Motivational Meme)</h3>
+                <p>Pretty Humourous, not in the meme itself but in the irony of how hard it was at the beginning 😂😂</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
