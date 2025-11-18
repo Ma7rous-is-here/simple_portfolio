@@ -166,15 +166,15 @@ button {
 }
 
 .one {
-    background-image: url(./assets/images/project_one.png);
+    background-image: url(./project_one.png);
 }
 
 .two {
-    background-image: url(./assets/images/goal-large.png);
+    background-image: url(./goal-large.png);
 }
 
 .three {
-    background-image: url(./assets/images/three.png);
+    background-image: url(./three.png);
 }
 
 .image {
